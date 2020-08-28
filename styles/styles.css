@@ -1,0 +1,46 @@
+/*--------------settings-----------*/
+
+/*font-family: 'Expletus Sans', cursive;
+font-family: 'Rubik', sans-serif;*/
+
+/*--------------generic----------- */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/*--------------elements-----------*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:25px;
+    margin:0;
+}
+
+/* style des a */
+
+/* style des h1 */
+
+/* style des h2 */
+
+/* style des h3 */
+
+/* style des ul */
+
+/* syle des li */
+
+/*--------------components --------*/
+
+
+/*--------------utilities----------*/
