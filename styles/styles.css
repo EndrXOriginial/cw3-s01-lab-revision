@@ -15,6 +15,7 @@ li {
 
 h1, h2 {
     margin: 0;
+    font-family: 'Expletus Sans', cursive;
 }
 
 /*--------------elements-----------*/
@@ -28,19 +29,129 @@ body {
     margin:0;
 }
 
-/* style des a */
-
-/* style des h1 */
-
-/* style des h2 */
-
-/* style des h3 */
-
-/* style des ul */
-
-/* syle des li */
+nav ul {
+    margin : 0;
+    display: flex;
+    padding: 10px;
+}
 
 /*--------------components --------*/
 
+.conteneur {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+header .conteneur {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* header */
+.header-principal {
+    background-color: #FF9800;
+}
+
+.hero {
+    background-color: #FFC107;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 86px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav li a:hover {
+    color: #FFFCFC;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* --- section Info --- */
+
+section.information {
+    margin: 20px 0;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte {
+    width: 360px;
+}
+
+.carte header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.carte-html {
+    background-color: #E34E26;
+}
+
+.carte-css {
+    background-color: #0270BB;
+}
+
+.carte-js {
+    background-color: #F8DC3D;
+}
+
+.content {
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+    padding: 15px;
+}
+
+.carte-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte footer span {
+    color: #E64A19;
+}
+
+.carte footer a {
+    color: black;
+    text-decoration: none;
+    background-color: #FFC107;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E64A19;
+}
+
+.carte-footer a:hover {
+    color: white;
+    background-color: #E64A19;
+}
+
+/* --- footer --- */
+
+.footer-principal {
+    background-color: #E64A19;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
 
 /*--------------utilities----------*/
